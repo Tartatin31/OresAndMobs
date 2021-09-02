@@ -1,0 +1,13 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oresandmobs:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "oresandmobs:sapphire",
+    "count": 9
+  }
+}

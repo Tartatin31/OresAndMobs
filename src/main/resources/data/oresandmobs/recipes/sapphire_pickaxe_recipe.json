@@ -1,0 +1,30 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "oresandmobs:sapphire"
+    },
+    "1": {
+      "item": "oresandmobs:sapphire"
+    },
+    "2": {
+      "item": "oresandmobs:sapphire"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "oresandmobs:sapphire_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "oresandmobs:sapphire"
+    },
+    "1": {
+      "item": "oresandmobs:sapphire"
+    },
+    "2": {
+      "item": "oresandmobs:sapphire"
+    },
+    "3": {
+      "item": "oresandmobs:sapphire"
+    },
+    "4": {
+      "item": "oresandmobs:sapphire"
+    },
+    "5": {
+      "item": "oresandmobs:sapphire"
+    },
+    "6": {
+      "item": "oresandmobs:sapphire"
+    },
+    "7": {
+      "item": "oresandmobs:sapphire"
+    },
+    "8": {
+      "item": "oresandmobs:sapphire"
+    }
+  },
+  "result": {
+    "item": "oresandmobs:sapphire_block",
+    "count": 1
+  }
+}
