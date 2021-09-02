@@ -1,14 +1,14 @@
 {
-  "block.oresandmobs.smapy_grass": "Smapy Grass",
   "item.oresandmobs.sapphire_pickaxe": "Sapphire Pickaxe",
   "biome.oresandmobs.giant_swamp": "Giant Swamp",
+  "item.oresandmobs.king_zombie_armor_armor_chestplate": "King_Zombie_Armor Chestplate",
   "item.oresandmobs.sapphire_armor_boots": "Sapphire Boots",
   "item.oresandmobs.sapphire_armor_helmet": "Sapphire Helmet",
   "item.oresandmobs.sapphire_hoe": "Sapphire Hoe",
   "block.oresandmobs.swamp_wood_fence": "Swamp_Wood Fence",
   "block.oresandmobs.swamp_wood_log": "Swamp_Wood Log",
+  "item.oresandmobs.king_zombie_armor_armor_leggings": "King_Zombie_Armor Leggings",
   "item.oresandmobs.sapphire_armor_leggings": "Sapphire Leggings",
-  "item.oresandmobs.crown": "Crown",
   "block.oresandmobs.sapphire_ore": "Sapphire Ore",
   "item.oresandmobs.sapphire_axe": "Sapphire Axe",
   "block.oresandmobs.swamp_wood_pressure_plate": "Swamp_Wood Pressure Plate",
@@ -18,6 +18,7 @@
   "item.oresandmobs.sapphire": "Sapphire",
   "block.oresandmobs.sapphire_block": "Block of Sapphire",
   "block.oresandmobs.swampy_dirt": "Swampy Dirt",
+  "item.oresandmobs.king_zombie_armor_armor_helmet": "King_Zombie_Armor Helmet",
   "item.oresandmobs.king_zombie_spawn_egg": "King Zombie Spawn Egg",
   "item.oresandmobs.sapphire_shovel": "Sapphire Shovel",
   "block.oresandmobs.swamp_wood_stairs": "Swamp_Wood Stairs",
@@ -27,5 +28,6 @@
   "item.oresandmobs.sapphire_sword": "Sapphire Sword",
   "item.oresandmobs.zombie_key_fragment": "Zombie Key Fragment",
   "block.oresandmobs.swamp_wood_planks": "Swamp_Wood Planks",
-  "item.oresandmobs.sapphire_armor_chestplate": "Sapphire Chestplate"
+  "item.oresandmobs.sapphire_armor_chestplate": "Sapphire Chestplate",
+  "item.oresandmobs.king_zombie_armor_armor_boots": "King_Zombie_Armor Boots"
 }

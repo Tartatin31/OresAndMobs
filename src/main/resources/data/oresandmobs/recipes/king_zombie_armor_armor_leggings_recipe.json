@@ -1,0 +1,36 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_portal"
+    },
+    "1": {
+      "item": "minecraft:nether_portal"
+    },
+    "2": {
+      "item": "minecraft:nether_portal"
+    },
+    "3": {
+      "item": "minecraft:nether_portal"
+    },
+    "5": {
+      "item": "minecraft:nether_portal"
+    },
+    "6": {
+      "item": "minecraft:nether_portal"
+    },
+    "8": {
+      "item": "minecraft:nether_portal"
+    }
+  },
+  "result": {
+    "item": "oresandmobs:king_zombie_armor_armor_leggings",
+    "count": 1
+  }
+}

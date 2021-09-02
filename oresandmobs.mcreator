@@ -206,24 +206,6 @@
       "registry_name": "zombie_key_fragment"
     },
     {
-      "name": "Crown",
-      "type": "item",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crown"
-    },
-    {
-      "name": "SmapyGrass",
-      "type": "block",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "smapy_grass"
-    },
-    {
       "name": "SwampyDirt",
       "type": "block",
       "sortid": 25,
@@ -429,22 +411,73 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "king_zombie"
+    },
+    {
+      "name": "King_Zombie_ArmorArmor",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_zombie_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "King_Zombie_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_zombie_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "King_Zombie_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_zombie_armor_armor_body_recipe"
+    },
+    {
+      "name": "King_Zombie_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_zombie_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "King_Zombie_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_zombie_armor_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.oresandmobs.smapy_grass": "Smapy Grass",
       "item.oresandmobs.sapphire_pickaxe": "Sapphire Pickaxe",
       "biome.oresandmobs.giant_swamp": "Giant Swamp",
+      "item.oresandmobs.king_zombie_armor_armor_chestplate": "King_Zombie_Armor Chestplate",
       "item.oresandmobs.sapphire_armor_boots": "Sapphire Boots",
       "item.oresandmobs.sapphire_armor_helmet": "Sapphire Helmet",
       "item.oresandmobs.sapphire_hoe": "Sapphire Hoe",
       "block.oresandmobs.swamp_wood_fence": "Swamp_Wood Fence",
       "block.oresandmobs.swamp_wood_log": "Swamp_Wood Log",
+      "item.oresandmobs.king_zombie_armor_armor_leggings": "King_Zombie_Armor Leggings",
       "item.oresandmobs.sapphire_armor_leggings": "Sapphire Leggings",
-      "item.oresandmobs.crown": "Crown",
       "block.oresandmobs.sapphire_ore": "Sapphire Ore",
       "item.oresandmobs.sapphire_axe": "Sapphire Axe",
       "block.oresandmobs.swamp_wood_pressure_plate": "Swamp_Wood Pressure Plate",
@@ -454,6 +487,7 @@
       "item.oresandmobs.sapphire": "Sapphire",
       "block.oresandmobs.sapphire_block": "Block of Sapphire",
       "block.oresandmobs.swampy_dirt": "Swampy Dirt",
+      "item.oresandmobs.king_zombie_armor_armor_helmet": "King_Zombie_Armor Helmet",
       "item.oresandmobs.king_zombie_spawn_egg": "King Zombie Spawn Egg",
       "item.oresandmobs.sapphire_shovel": "Sapphire Shovel",
       "block.oresandmobs.swamp_wood_stairs": "Swamp_Wood Stairs",
@@ -463,7 +497,8 @@
       "item.oresandmobs.sapphire_sword": "Sapphire Sword",
       "item.oresandmobs.zombie_key_fragment": "Zombie Key Fragment",
       "block.oresandmobs.swamp_wood_planks": "Swamp_Wood Planks",
-      "item.oresandmobs.sapphire_armor_chestplate": "Sapphire Chestplate"
+      "item.oresandmobs.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.oresandmobs.king_zombie_armor_armor_boots": "King_Zombie_Armor Boots"
     }
   },
   "foldersRoot": {

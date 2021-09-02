@@ -4,10 +4,10 @@
   "definition": {
     "name": "Giant Swamp",
     "groundBlock": {
-      "value": "CUSTOM:SmapyGrass"
+      "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:SwampyDirt"
+      "value": "Blocks.DIRT#0"
     },
     "airColor": {
       "value": -12627712,

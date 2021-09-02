@@ -43,8 +43,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.oresandmobs.item.ZombieKeyFragmentItem;
 import net.mcreator.oresandmobs.item.SapphireSwordItem;
-import net.mcreator.oresandmobs.item.SapphireArmorItem;
-import net.mcreator.oresandmobs.item.CrownItem;
+import net.mcreator.oresandmobs.item.King_Zombie_ArmorArmorItem;
 import net.mcreator.oresandmobs.entity.renderer.KingZombieRenderer;
 import net.mcreator.oresandmobs.OresandmobsModElements;
 
@@ -54,7 +53,7 @@ import java.util.Random;
 public class KingZombieEntity extends OresandmobsModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("king_zombie").setRegistryName("king_zombie");
+			.size(0.6f, 1.7999999999999998f)).build("king_zombie").setRegistryName("king_zombie");
 	public KingZombieEntity(OresandmobsModElements instance) {
 		super(instance, 22);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new KingZombieRenderer.ModelRegisterHandler());
@@ -89,7 +88,7 @@ public class KingZombieEntity extends OresandmobsModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 100);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 4);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.1);
@@ -105,13 +104,14 @@ public class KingZombieEntity extends OresandmobsModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 25;
+			experienceValue = 40;
 			setNoAI(false);
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(SapphireArmorItem.legs));
-			this.setItemStackToSlot(EquipmentSlotType.OFFHAND, new ItemStack(SapphireArmorItem.body));
-			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(SapphireArmorItem.boots));
-			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(CrownItem.block));
-			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(SapphireSwordItem.block));
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(SapphireSwordItem.block));
+			this.setItemStackToSlot(EquipmentSlotType.OFFHAND, new ItemStack(ZombieKeyFragmentItem.block));
+			this.setItemStackToSlot(EquipmentSlotType.HEAD, new ItemStack(King_Zombie_ArmorArmorItem.helmet));
+			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(King_Zombie_ArmorArmorItem.body));
+			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(King_Zombie_ArmorArmorItem.legs));
+			this.setItemStackToSlot(EquipmentSlotType.FEET, new ItemStack(King_Zombie_ArmorArmorItem.boots));
 		}
 
 		@Override

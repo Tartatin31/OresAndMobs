@@ -8,7 +8,7 @@
     "mobModelTexture": "king_zombie.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "modelHeight": 1.7999999999999998,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -27,22 +27,22 @@
     "bossBarColor": "BLUE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "CUSTOM:SapphireArmor.legs"
-    },
-    "equipmentOffHand": {
-      "value": "CUSTOM:SapphireArmor.body"
-    },
-    "equipmentHelmet": {
-      "value": "CUSTOM:SapphireArmor.boots"
-    },
-    "equipmentBody": {
-      "value": "CUSTOM:Crown"
-    },
-    "equipmentLeggings": {
       "value": "CUSTOM:SapphireSword"
     },
+    "equipmentOffHand": {
+      "value": "CUSTOM:ZombieKeyFragment"
+    },
+    "equipmentHelmet": {
+      "value": "CUSTOM:King_Zombie_ArmorArmor.helmet"
+    },
+    "equipmentBody": {
+      "value": "CUSTOM:King_Zombie_ArmorArmor.body"
+    },
+    "equipmentLeggings": {
+      "value": "CUSTOM:King_Zombie_ArmorArmor.legs"
+    },
     "equipmentBoots": {
-      "value": ""
+      "value": "CUSTOM:King_Zombie_ArmorArmor.boots"
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
@@ -52,8 +52,8 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 100,
-    "xpAmount": 25,
+    "health": 200,
+    "xpAmount": 40,
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
@@ -62,7 +62,7 @@
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
-    "canControlStrafe": false,
+    "canControlStrafe": true,
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,

@@ -43,11 +43,9 @@ import net.minecraft.state.BooleanProperty;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.oresandmobs.block.SwampyDirtBlock;
 import net.mcreator.oresandmobs.block.Swamp_WoodWoodBlock;
 import net.mcreator.oresandmobs.block.Swamp_WoodLogBlock;
 import net.mcreator.oresandmobs.block.Swamp_WoodFenceBlock;
-import net.mcreator.oresandmobs.block.SmapyGrassBlock;
 import net.mcreator.oresandmobs.OresandmobsModElements;
 
 import java.util.Set;
@@ -70,8 +68,8 @@ public class GiantSwampBiome extends OresandmobsModElements.ModElement {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-12627712).setWaterColor(-13473476).setWaterFogColor(329011)
 						.withSkyColor(-12627712).withFoliageColor(-12627712).withGrassColor(-12627712).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
-						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(SmapyGrassBlock.block.getDefaultState(),
-								SwampyDirtBlock.block.getDefaultState(), SwampyDirtBlock.block.getDefaultState())));
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
+								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.TREE
 								.withConfiguration(
