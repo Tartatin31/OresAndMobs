@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresandmobs:block/swamp_wood_slab"
+    },
+    "type=top": {
+      "model": "oresandmobs:block/swamp_wood_slab_top"
+    },
+    "type=double": {
+      "model": "oresandmobs:block/swamp_wood_slab_full"
+    }
+  }
+}

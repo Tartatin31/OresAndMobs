@@ -1,0 +1,103 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Giant Swamp",
+    "groundBlock": {
+      "value": "CUSTOM:SmapyGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:SwampyDirt"
+    },
+    "airColor": {
+      "value": -12627712,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -12627712,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -12627712,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13473476,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "SWAMP",
+    "parent": {
+      "value": "swamp"
+    },
+    "rainingPossibility": 0.7999999999999999,
+    "temperature": 0.7999999999999999,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": true,
+    "biomeWeight": 8,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 9,
+    "maxWaterDepth": 0,
+    "treeStem": {
+      "value": "CUSTOM:Swamp_WoodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Swamp_WoodWood"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Swamp_WoodFence"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [
+      "DeadBushes",
+      "Fossils",
+      "ExtraGoldOre",
+      "Lakes"
+    ],
+    "spawnEntries": []
+  }
+}

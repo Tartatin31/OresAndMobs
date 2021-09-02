@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "oresandmobs:blocks/swamp_wood_planks"
+  }
+}

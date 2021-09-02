@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oresandmobs:blocks/swampy_dirt",
+    "up": "oresandmobs:blocks/swampy_dirt",
+    "north": "oresandmobs:blocks/swampy_dirt",
+    "east": "oresandmobs:blocks/swampy_dirt",
+    "south": "oresandmobs:blocks/swampy_dirt",
+    "west": "oresandmobs:blocks/swampy_dirt",
+    "particle": "oresandmobs:blocks/swampy_dirt"
+  }
+}

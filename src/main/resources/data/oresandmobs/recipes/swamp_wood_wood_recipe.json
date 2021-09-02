@@ -1,0 +1,26 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "oresandmobs:swamp_wood_log"
+    },
+    "1": {
+      "item": "oresandmobs:swamp_wood_log"
+    },
+    "2": {
+      "item": "oresandmobs:swamp_wood_log"
+    },
+    "3": {
+      "item": "oresandmobs:swamp_wood_log"
+    }
+  },
+  "result": {
+    "item": "oresandmobs:swamp_wood_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oresandmobs:blocks/swamp_wood_log_top",
+    "up": "oresandmobs:blocks/swamp_wood_log_top",
+    "north": "oresandmobs:blocks/swamp_wood_log_side",
+    "east": "oresandmobs:blocks/swamp_wood_log_side",
+    "south": "oresandmobs:blocks/swamp_wood_log_side",
+    "west": "oresandmobs:blocks/swamp_wood_log_side",
+    "particle": "oresandmobs:blocks/swamp_wood_log_top"
+  }
+}

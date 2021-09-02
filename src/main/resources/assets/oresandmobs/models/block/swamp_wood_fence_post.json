@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "oresandmobs:blocks/swamp_wood_planks",
+    "particle": "oresandmobs:blocks/swamp_wood_planks"
+  }
+}

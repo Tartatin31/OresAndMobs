@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "oresandmobs:blocks/swamp_wood_log_side",
+    "particle": "oresandmobs:blocks/swamp_wood_log_side"
+  }
+}

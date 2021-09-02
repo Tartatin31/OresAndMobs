@@ -1,0 +1,13 @@
+{
+  "group": "oresandmobs",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oresandmobs:swamp_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "oresandmobs:swamp_wood_button",
+    "count": 1
+  }
+}

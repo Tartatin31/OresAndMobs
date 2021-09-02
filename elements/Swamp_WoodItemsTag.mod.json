@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Swamp_WoodWood"
+      },
+      {
+        "value": "CUSTOM:Swamp_WoodLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "swamp_wood_log",
+    "namespace": "forge"
+  }
+}

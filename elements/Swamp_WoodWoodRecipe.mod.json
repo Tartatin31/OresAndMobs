@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Swamp_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Swamp_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Swamp_WoodLog"
+      },
+      {
+        "value": "CUSTOM:Swamp_WoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Swamp_WoodWood"
+    },
+    "name": "swamp_wood_wood_recipe",
+    "namespace": "mod"
+  }
+}
